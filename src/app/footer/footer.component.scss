@@ -1,0 +1,22 @@
+@import "../../assets/utils/variables";
+
+.foot-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+
+  h2 {
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    font-style: italic;
+  }
+
+  a {
+    color: white;
+
+    &:hover {
+      color: $orange;
+    }
+  }
+}
